@@ -76,6 +76,10 @@ void DeQueue(Stack &s1, Stack &s2){
     cout<< temp << "出队" << endl;
 }
 
+bool QueueEmpty(Stack &s1, Stack &s2){
+    return (StackEmpty(s1) && StackEmpty(s2));
+}
+
 int main(int argc, const char * argv[]) {
     
     Stack s1,s2;
